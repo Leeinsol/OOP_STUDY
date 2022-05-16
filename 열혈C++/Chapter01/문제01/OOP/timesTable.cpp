@@ -5,11 +5,11 @@ using namespace std;
 int main() {
 	int num = 0;
 
-	cout << "±¸±¸´Ü Ãâ·Â ÇÁ·Î±×·¥" << endl;
-	cout << "¸î ´ÜÀ» Ãâ·ÂÇÏ½Ã°Ú½À´Ï±î? ";
+	cout << "êµ¬êµ¬ë‹¨ ì¶œë ¥ í”„ë¡œê·¸ë¨" << endl;
+	cout << "ëª‡ ë‹¨ì„ ì¶œë ¥í•˜ì‹œê² ìŠµë‹ˆê¹Œ? ";
 	cin >> num;
 	cout << endl;
-	cout << num << "´Ü Ãâ·Â" << endl;
+	cout << num << "ë‹¨ ì¶œë ¥" << endl;
 
 	for (int i = 1; i < 10; i++) {
 		cout << num << "*" << i << "=" << num * i << endl;
