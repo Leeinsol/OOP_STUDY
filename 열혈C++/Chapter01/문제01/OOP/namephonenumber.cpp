@@ -6,13 +6,13 @@ int main() {
 	char name[20];
 	char phone[50];
 
-	cout << "ÀÌ¸§¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì´ë¦„ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> name;
-	cout << "ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ì „í™”ë²ˆí˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ";
 	cin >> phone;
 
 	cout << "-------------------------" << endl;
-	cout << "ÀÌ¸§: " << name << endl;
-	cout << "ÀüÈ­¹øÈ£: " << phone << endl;
+	cout << "ì´ë¦„: " << name << endl;
+	cout << "ì „í™”ë²ˆí˜¸: " << phone << endl;
 
 }
