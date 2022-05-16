@@ -7,10 +7,10 @@ int main() {
 	int total = 0;
 
 	for (int i = 0; i < 5; i++) {
-		cout << i + 1 << "¹øÂ° Á¤¼ö ÀÔ·Â: ";
+		cout << i + 1 << "Â¹Ã¸Ã‚Â° ÃÂ¤Â¼Ã¶ Ã€Ã”Â·Ã‚: ";
 		cin >> arr[i];
 		total += arr[i];
 	}
 
-	cout << "ÇÕ°è: " << total << endl;
+	cout << "Ã‡Ã•Â°Ã¨: " << total << endl;
 }
