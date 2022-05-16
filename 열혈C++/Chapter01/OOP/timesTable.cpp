@@ -9,7 +9,7 @@ int main() {
 	cout << "몇 단을 출력하시겠습니까? ";
 	cin >> num;
 	cout << endl;
-	cout << num << "단 출력" << endl;
+	cout << num << "단 출력: " << endl;
 
 	for (int i = 1; i < 10; i++) {
 		cout << num << "*" << i << "=" << num * i << endl;
