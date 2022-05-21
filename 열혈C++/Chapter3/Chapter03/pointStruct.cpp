@@ -2,7 +2,7 @@
 
 using namespace std;
 
-//±¸Á¶Ã¼ ³»¿¡ ÇÔ¼öÁ¤ÀÇ
+//Â±Â¸ÃÂ¶ÃƒÂ¼ Â³Â»Â¿Â¡ Ã‡Ã”Â¼Ã¶ÃÂ¤Ã€Ã‡
 struct Point {
 	int xpos;
 	int ypos;
