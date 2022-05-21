@@ -3,10 +3,10 @@
 
 using namespace std;
 
-// °è»ê±â ±â´ÉÀ» °¡Áö´Â ±¸Á¶Ã¼
+// ê³„ì‚°ê¸° ê¸°ëŠ¥ì„ ê°€ì§€ëŠ” êµ¬ì¡°ì²´
 class Calculator {
 private:
-	// °¢ ¿¬»êÀÇ È½¼ö¸¦ ÀúÀå
+	// ê° ì—°ì‚°ì˜ íšŸìˆ˜ë¥¼ ì €ì¥
 	int numOfAdd;
 	int numOfDiv;
 	int numOfMin;
@@ -16,7 +16,7 @@ public:
 	void Init();
 	void ShowOpCount();
 
-	// µ¡¼À, »¬¼À, °ö¼À, ³ª´°¼À
+	// ë§ì…ˆ, ëº„ì…ˆ, ê³±ì…ˆ, ë‚˜ëˆ—ì…ˆ
 	double Add(double x, double y);
 	double Div(double x, double y);
 	double Min(double x, double y);
@@ -31,10 +31,10 @@ void Calculator::Init() {
 }
 
 void Calculator::ShowOpCount() {
-	cout << "µ¡¼À: " << numOfAdd << " ";
-	cout << "»¬¼À: " << numOfMin << " ";
-	cout << "°ö¼À: " << numOfMul << " ";
-	cout << "³ª´°¼À: " << numOfDiv << " ";
+	cout << "ë§ì…ˆ: " << numOfAdd << " ";
+	cout << "ëº„ì…ˆ: " << numOfMin << " ";
+	cout << "ê³±ì…ˆ: " << numOfMul << " ";
+	cout << "ë‚˜ëˆ—ì…ˆ: " << numOfDiv << " ";
 
 }
 
